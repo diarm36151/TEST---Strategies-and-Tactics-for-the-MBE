@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<package version="2.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="epubsplit-id">
+   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+      <dc:identifier id="epubsplit-id">epubsplit-uid-1668968909</dc:identifier>
+      <dc:title>Questions</dc:title>
+      <dc:creator opf:role="aut">Stephen L. Emanuel</dc:creator>
+      <dc:contributor opf:role="bkp">epubsplit</dc:contributor>
+      <dc:rights>Copyrights as per source stories</dc:rights>
+      <dc:language>eng</dc:language>
+      <dc:description>&lt;div&gt;&lt;p&gt;Split from:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Strategies and Tactics for the MBE (Strategies &amp; Tactics for the MBE Book 1)&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;</dc:description>
+      <meta name="cover" content="coverimageid"/>
+   </metadata>
+   <manifest>
+      <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+      <item id="coverimageid" href="cover.jpg" media-type="image/jpeg"/>
+      <item id="cover" href="cover.xhtml" media-type="application/xhtml+xml"/>
+      <item id="a0" href="index_split_002.html" media-type="application/xhtml+xml"/>
+      <item id="a1" href="stylesheet.css" media-type="text/css"/>
+      <item id="a2" href="page_styles.css" media-type="text/css"/>
+   </manifest>
+   <spine toc="ncx">
+      <itemref idref="cover" linear="yes"/>
+      <itemref idref="a0" linear="yes"/>
+   </spine>
+   <guide>
+      <reference type="cover" title="Cover" href="cover.xhtml"/>
+   </guide>
+</package>
